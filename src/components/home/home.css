@@ -1,0 +1,15 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-heading{
+    font-size: 50px;
+    background-color: rgba(20, 14, 6, 0.925);
+    color:rgba(255, 0, 43, 0.733);
+    border-radius: 1px;
+    padding: 2px;
+}

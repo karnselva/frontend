@@ -1,0 +1,25 @@
+.bg-container{
+    margin: auto;
+    width: 85%;
+}
+
+.bookmark-item-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+
+
+
+@media screen and (min-width: 650px) {
+    .bookmark-item-container {
+      flex-direction: row;
+      max-width: 660px;
+      height: 170px;
+      margin: 15px;
+    }
+    .bg-container{
+        margin: auto;
+        width: 75%;
+    }
+  }
